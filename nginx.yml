@@ -1,4 +1,4 @@
-- hosts: lb
+- hosts: webservers
   become: True
   tasks:
     - name: configure nginx rpm
